@@ -48,13 +48,14 @@ Open `dist/index.html` directly in your browser. You can make a desktop shortcut
 
 - If `npm install` fails, try deleting `node_modules` and `package-lock.json`, then run `npm install` again
 - If Electron packaging fails, make sure you're on Windows and try `npx electron-builder --win`
-- The app works offline — no internet needed after building
 
 ## How to Use the .pop File
 
 1. Export your mission using the .pop button
 2. Place the file in: `tf/scripts/population/`
 3. In TF2, open console and type: `map <mapname>` then `tf_mvm_popfile <filename>`
+
+- For public testing check out potato.tf
 
 ## Features
 
@@ -65,3 +66,14 @@ Open `dist/index.html` directly in your browser. You can make a desktop shortcut
 - **All Valve templates** — Verified against robot_standard.pop, robot_giant.pop, robot_gatebot.pop
 - **Editable previews** — Auto-generated code you can hand-edit for full control
 - **Light/Dark mode**
+- Most fields have additional text inputs if necessary
+- Release includes a feature that can fix certain broken valve templates. Currently only used for fixing non-gatebot Heal-on-Kill Heavy, may remove it if unpopular or not necessary
+
+## To-Do
+
+- Possibly add syntax highlighting to the free-text boxes
+- Improve bot template creation by turning fields for attributes into exhaustive drop-downs
+- Fix any broken icon matches with bots
+- Possibly add custom icon support (? need to read VTFs to make the feature more useful, otherwise users just put their custom icons as pngs into the program) 
+- UI could probably use work
+- Improve relationship between editable preview of bot templates and wavespawns and their GUI counterparts
