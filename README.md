@@ -1,6 +1,6 @@
 # MvM Popfile Creator
 
-A desktop app for creating TF2 Mann vs. Machine popfiles.
+A desktop app for creating TF2 Mann vs. Machine popfiles. My intention was to facilitate easier creation of MvM population files via a GUI. This program was written via Anthropic's Claude AI. 
 
 ## Quick Start (Browser Only)
 
