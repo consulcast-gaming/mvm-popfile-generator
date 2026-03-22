@@ -2,6 +2,7 @@
   "name": "mvm-popfile-creator",
   "version": "1.0.0",
   "description": "TF2 MvM Popfile Creator",
+  "license": "AGPL-3.0",
   "main": "electron.cjs",
   "scripts": {
     "dev": "vite",
