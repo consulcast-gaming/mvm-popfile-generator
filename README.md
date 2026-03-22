@@ -65,8 +65,8 @@ Open `dist/index.html` directly in your browser. You can make a desktop shortcut
 - **Waves** — Unlimited waves with Single/Squad/RandomChoice/Tank wavespawns
 - **All Valve templates** — Verified against robot_standard.pop, robot_giant.pop, robot_gatebot.pop
 - **Editable previews** — Auto-generated code you can hand-edit for full control
+- **Save/Load Functionality** — Will save your popfile as a json that can be loaded later
 - **Light/Dark mode**
-- Most fields have additional text inputs if necessary
 - Release includes a feature that can fix certain broken valve templates. Currently only used for fixing non-gatebot Heal-on-Kill Heavy, may remove it if unpopular or not necessary
 
 ## To-Do
@@ -77,3 +77,4 @@ Open `dist/index.html` directly in your browser. You can make a desktop shortcut
 - Possibly add custom icon support (? need to read VTFs to make the feature more useful, otherwise users just put their custom icons as pngs into the program) 
 - UI could probably use work
 - Improve relationship between editable preview of bot templates and wavespawns and their GUI counterparts
+- make it skip saving as json and save as pop directly, create a popfile parser for existing pops (Deal with issue of plugin-only keyvalues?)
