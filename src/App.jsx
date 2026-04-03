@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const TEMPLATES = {
   Scout:["Class Scout","T_TFBot_Scout_Melee","T_TFBot_Scout_Bonk","T_TFBot_Scout_Sandman","T_TFBot_Scout_Sandman_FastCharge","T_TFBot_Scout_FAN","T_TFBot_Scout_Shortstop","T_TFBot_Scout_Jumping_Sandman","T_TFBot_Scout_Scattergun_SlowFire","T_TFBot_Scout_SunStick","T_TFBot_Scout_Wrap_Assassin"],
-  Soldier:["Class Soldier","T_TFBot_Soldier_RocketShotgun","T_TFBot_Soldier_RocketPush","T_TFBot_Soldier_Buff_Banner","T_TFBot_Soldier_Extended_Buff_Banner","T_TFBot_Soldier_Extended_Concheror","T_TFBot_Soldier_Extended_Battalion","T_TFBot_Soldier_BurstFire"],
+  Soldier:["Class Soldier","T_TFBot_Soldier_RocketShotgun","T_TFBot_Soldier_RocketPush","T_TFBot_Soldier_Buff_Banner","T_TFBot_Soldier_Extended_Buff_Banner","T_TFBot_Soldier_Extended_Concheror","T_TFBot_Soldier_Extended_Battalion"],
   Pyro:["Class Pyro","T_TFBot_Pyro","T_TFBot_Pyro_Flaregun","T_TFBot_ScorchShot","T_TFBot_ScorchShot_FastShot"],
   Demoman:["Class Demoman","T_TFBot_Demoman","T_TFBot_Demoman_Knight","T_TFBot_Demoman_Samurai","T_TFBot_Demo_Burst"],
   Heavy:["Class Heavyweapons","T_TFBot_Heavyweapons_Fist","T_TFBot_Heavy_IronFist_Airblast","T_TFBot_Heavyweapons_Heavyweight_Champ","T_TFBot_Heavyweapons_Heavyweight_Champ_Fast","T_TFBot_Heavyweapons_Shotgun","T_TFBot_Heavyweapons_Gnome","T_TFBot_Heavyweapons_Heater"],
@@ -11,7 +11,7 @@ const TEMPLATES = {
   Spy:["T_TFBot_Spy","Class Spy"],
   Engineer:["T_TFBot_Engineer_Sentry_Teleporter","T_TFBot_Engineer_Sentry_Battle_TeleIn","T_TFBot_Engineer_Sentry_Battle"],
   "Giant Scout":["T_TFBot_Giant_Scout","T_TFBot_Giant_Scout_Fast","T_TFBot_Giant_Scout_FAN","T_TFBot_Giant_Scout_Bonk","T_TFBot_Giant_Scout_Baseball","T_TFBot_Giant_Scout_Baseball_Armored","T_TFBot_Giant_Major_League"],
-  "Giant Soldier":["T_TFBot_Giant_Soldier","T_TFBot_Giant_Soldier_Crit","T_TFBot_Giant_Soldier_Spammer","T_TFBot_Giant_Soldier_SlowBarrage","T_TFBot_Giant_Soldier_Extended_Buff_Banner","T_TFBot_Giant_Soldier_Extended_Concheror","T_TFBot_Giant_Soldier_Extended_Battalion","T_TFBot_Giant_Soldier_RocketPush","T_TFBot_Giant_Soldier_RocketShotgun"],
+  "Giant Soldier":["T_TFBot_Giant_Soldier","T_TFBot_Giant_Soldier_Crit","T_TFBot_Giant_Soldier_Spammer","T_TFBot_Giant_Soldier_SlowBarrage","T_TFBot_Giant_Soldier_Extended_Buff_Banner","T_TFBot_Giant_Soldier_Extended_Concheror","T_TFBot_Giant_Soldier_Extended_Battalion","T_TFBot_Giant_Soldier_RocketPush","T_TFBot_Giant_Soldier_RocketShotgun","T_TFBot_Soldier_BurstFire"],
   "Giant Pyro":["T_TFBot_Giant_Pyro","T_TFBot_Giant_Pyro_Pusher","T_TFBot_Giant_Pyro_Flare_Spammer"],
   "Giant Demo":["T_TFBot_Giant_Demoman","T_TFBot_Giant_Demo_RapidFire","T_TFBot_Giant_Demo_Burst","T_TFBot_Giant_DemoMan_PrinceTavish","T_TFBot_Giant_Metalbeard"],
   "Giant Heavy":["T_TFBot_Giant_Heavyweapons","T_TFBot_Giant_Heavyweapons_Deflector","T_TFBot_Giant_Heavyweapons_Shotgun","T_TFBot_Giant_Heavyweapons_HealOnKill","T_TFBot_Giant_Heavyweapons_BrassBeast","T_TFBot_Giant_Boxing_Heavy"],
